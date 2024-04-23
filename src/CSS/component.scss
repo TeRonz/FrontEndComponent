@@ -1,0 +1,78 @@
+@import 'variables/colours.scss';
+
+.component {
+    background: $pale-grey;
+    border: $grey solid 1px;
+    padding: 10% 5%;
+
+
+    .component__text {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+
+        .component__header {
+        }
+
+        .component__summary {
+        }
+    }
+
+    .component__cards {
+
+        .component__card {
+            display: flex;
+            background: $white;
+            margin-top: 5%;
+            border-radius: 25px;
+
+            .card__image {
+                border-radius: 25px 0 0 25px;
+            }
+
+            .card__text {
+                padding: 5%;
+
+                .card__heading {
+                }
+
+                .card__summary {
+                }
+
+                .card__link {
+                    display: flex;
+
+                    .link__text {
+                        color: $pale-red;
+                    }
+
+                    .link__vector {
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .component {
+        .component__text {
+            width: 100%;
+        }
+
+        .component__cards {
+
+            .component__card {
+                display: block;
+
+                .card__image {
+                    width: 100%;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+}

@@ -1,0 +1,100 @@
+﻿@font-face {
+  font-family: "Poppins";
+  src: url(Fonts/Poppins/Poppins-Black.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(Fonts/Poppins/Poppins-Black.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(Fonts/Poppins/Poppins-Black.ttf) format("ttf");
+}
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0D1B48;
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0D1B48;
+}
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0D1B48;
+}
+@media only screen and (max-width: 768px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #424767;
+}
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+h1, h2, h3, h4, h5, p, a, span, div {
+  font-family: Poppins;
+}
+
+.component {
+  background: #F5F5F5;
+  border: #DCDCDC solid 1px;
+  padding: 10% 5%;
+}
+.component .component__text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.component .component__cards .component__card {
+  display: flex;
+  background: #FFFFFF;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+.component .component__cards .component__card .card__image {
+  border-radius: 25px 0 0 25px;
+}
+.component .component__cards .component__card .card__text {
+  padding: 5%;
+}
+.component .component__cards .component__card .card__text .card__link {
+  display: flex;
+}
+.component .component__cards .component__card .card__text .card__link .link__text {
+  color: #C33C54;
+}
+@media only screen and (max-width: 768px) {
+  .component .component__text {
+    width: 100%;
+  }
+  .component .component__cards .component__card {
+    display: block;
+  }
+  .component .component__cards .component__card .card__image {
+    width: 100%;
+    border-radius: 25px;
+  }
+}
