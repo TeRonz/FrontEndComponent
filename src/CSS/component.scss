@@ -42,6 +42,20 @@
                 .card__link {
                     display: flex;
 
+                    &:hover {
+                        cursor: pointer;
+
+                        .link__text {
+                            text-decoration: underline;
+                            font-weight: 700;
+                            margin-left: 2px;
+                        }
+
+                        .link__vector{
+                            margin-left: 2px;
+                        }
+                    }
+
                     .link__text {
                         color: $pale-red;
                     }
@@ -72,7 +86,4 @@
             }
         }
     }
-}
-
-@media only screen and (max-width: 576px) {
 }

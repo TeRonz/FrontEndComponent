@@ -1,16 +1,4 @@
-﻿@font-face {
-  font-family: "Poppins";
-  src: url(Fonts/Poppins/Poppins-Black.ttf) format("ttf");
-}
-@font-face {
-  font-family: "Poppins";
-  src: url(Fonts/Poppins/Poppins-Black.ttf) format("ttf");
-}
-@font-face {
-  font-family: "Poppins";
-  src: url(Fonts/Poppins/Poppins-Black.ttf) format("ttf");
-}
-h1 {
+﻿h1 {
   font-size: 44px;
   font-weight: 700;
   color: #0D1B48;
@@ -82,6 +70,17 @@ h1, h2, h3, h4, h5, p, a, span, div {
 }
 .component .component__cards .component__card .card__text .card__link {
   display: flex;
+}
+.component .component__cards .component__card .card__text .card__link:hover {
+  cursor: pointer;
+}
+.component .component__cards .component__card .card__text .card__link:hover .link__text {
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 2px;
+}
+.component .component__cards .component__card .card__text .card__link:hover .link__vector {
+  margin-left: 2px;
 }
 .component .component__cards .component__card .card__text .card__link .link__text {
   color: #C33C54;
