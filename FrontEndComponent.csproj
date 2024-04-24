@@ -53,7 +53,6 @@
       <DependentUpon>main.css</DependentUpon>
     </Content>
     <Content Include="src\Fonts\Poppins\OFL.txt" />
-    <Content Include="src\Javascript\Component.js" />
     <Content Include="src\Media\kids_football.png" />
     <Content Include="src\Media\team__collaborating.png" />
   </ItemGroup>

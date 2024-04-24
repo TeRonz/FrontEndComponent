@@ -80,11 +80,15 @@ h1, h2, h3, h4, h5, p, a, span, div {
   margin-left: 2px;
 }
 .component .component__cards .component__card .card__text .card__link:hover .link__vector {
-  margin-left: 2px;
+  margin-left: 2%;
 }
 .component .component__cards .component__card .card__text .card__link .link__text {
   color: #C33C54;
 }
+.component .component__cards .component__card .card__text .card__link .link__vector {
+  margin-left: 1%;
+}
+
 @media only screen and (max-width: 768px) {
   .component .component__text {
     width: 100%;
